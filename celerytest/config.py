@@ -1,6 +1,6 @@
 class CELERY_TEST_CONFIG(object):
     CELERY_SEND_EVENTS = True
-    CELERYD_POOL = 'threads'
+    CELERYD_POOL = 'solo'
     CELERYD_CONCURRENCY = 1
     CELERYD_HIJACK_ROOT_LOGGER = False
     CELERYD_LOG_FORMAT = "%(message)s"
